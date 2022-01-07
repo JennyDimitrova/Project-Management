@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project_Management.DAL\Project_Management.DAL.csproj" />
+    <ProjectReference Include="..\Project_Management.BLL\Project_Management.BLL.csproj" />
+    <ProjectReference Include="..\Project_Management.Models\Project_Management.DTO_Models.csproj" />
+  </ItemGroup>
+
+</Project>
